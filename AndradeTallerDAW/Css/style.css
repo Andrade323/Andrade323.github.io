@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #1c1c1c;
+    
+}
+
+
+body::-webkit-scrollbar {
+	width: 6px;
+	background: #ff8000;
+	
+}
+body::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: #000;
+	border-right: 2px solid #000; 
+}
+
+.cont_footer{
+ background: rgb(255, 170, 0);
+ width: 100%;
+    
+}
+.Registro{
+ background: rgb(238, 159, 0);
+ width: 90%;
+ margin: auto;
+ border-radius: 15px;
+    
+}
+
+.title_txt{
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+}
+
+.botonB{
+    border-radius: 20px;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px 45px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	transition: all 0.3s ease;
+}
+
+.botonB:hover{
+    border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+    cursor: pointer;
+}
+
+.botonB:active {
+	transform: scale(0.90);
+}
+
+.input{
+   text-align: center;
+    color: white;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+	border: none;
+	padding: 13px 13px;
+	margin: 8px 0;
+    width: 200px;
+}
+
+.tabla{
+    width: 99%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 8px; 
+}
+
+tbody{
+    text-align: center;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 8px;    
+}
+thead{
+    text-align: center;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 8px;  
+}
